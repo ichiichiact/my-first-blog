@@ -3,8 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.post_list, name='post_list'),
-<<<<<<< HEAD
     path('post/<int:pk>/', views.post_detail, name='post_detail'),
-=======
->>>>>>> origin/master
 ]
